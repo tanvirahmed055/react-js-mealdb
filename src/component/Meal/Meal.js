@@ -13,6 +13,7 @@ const Meal = (props) => {
                 <p><small>Meal id: {idMeal}</small></p>
                 <p><small>Meal Category: {strCategory}</small></p>
                 <p><small>Meal Area: {strArea}</small></p>
+                <button onClick={() => props.handleAddToCart(strMeal)}>Add Meal</button>
             </div>
 
         </div>
